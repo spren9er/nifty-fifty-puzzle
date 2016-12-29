@@ -52,7 +52,7 @@ Each puzzle piece can be rotated into four different positions.
 It follows
 
 | Puzzle Piece | Path (r: right; u: up)        | Solution | Count  |
-|---------  --:|:------------------------------|---------:|-------:|
+|-------------:|:------------------------------|---------:|-------:|
 |            1 | rrrruuurrruuuurrurruuurrrrr   |          |     23 |      
 |            1 | uuuurrruuurrrruuruurrruuuuu   |          |     23 |
 |            1 | rrrrruuurrurruuuurrruuurrrr   |          |     21 |
