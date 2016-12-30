@@ -108,8 +108,8 @@ There is only one solution to the game, but 6415 possibilities to place three pu
 
 With those numbers one can say something about the difficulty of the game.
 
-- Among all 12548 possible pairs there are only 6 pairs which contribute to the solution, i.e. if one select a pair randomly, the probability of having the game partially solved is 0.0478%.
-- Among all 6415 possible triples there are only 4 triples which contribute to the solution, i.e. if one select a triple randomly, the probability of having the game partially solved is 0.0624%.
+- Among all 12548 possible pairs there are only 6 pairs which contribute to the solution, i.e. if one selects a pair randomly, the probability of having the game partially solved is 0.0478%.
+- Among all 6415 possible triples there are only 4 triples which contribute to the solution, i.e. if one selects a triple randomly, the probability of having the game partially solved is 0.0624%.
 
 **Note:** The above numbers are correct if the puzzle solver places the pieces randomly on the board (equal distribution), which is not true in reality. Of course a good puzzle solver can anticipate which pieces fit better than others. In other words, the probability for a good pair constellation (leaving less blank spaces) of being a partial solution is significantly higher than for a bad pair constellation.
 
@@ -146,7 +146,6 @@ For determing the solution one can call the ruby script `nf.rb` by
 ```
 
 It uses a backtracking algorithm to calculate all possible solutions.
-
 Provide custom lambda functions for variations of the output, e.g. in `nf.rb` replace the line
 
 ```ruby
